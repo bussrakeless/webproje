@@ -1,12 +1,14 @@
 
 ## Kurulum
+Virtual environment paketini kurmak için komut satırına : pip install virtualenv 
+
+anal Python ortamı kurmak için komut satırına : virtualenv sanal_ortamın_adı (`virtualenv venv`)
 
 İndirdikten sonra proje dizini içerisinde :
 
-`virtualenv venv`
-
- Windows:
-`venv\Scripts\activate`
+Sanal ortamı aktif etmek için : sanal_ortamın_adı\Scripts\activate (`venv\Scripts\activate`)
+ 
+Django paketini kurmak için : pip install django==1.10
 
 `pip install -r requirements.txt`
 
@@ -16,6 +18,6 @@
 
 `python manage.py createsuper`
 
-`python manage.py runserver`
+Django sunucusunu çalıştırmak için : python manage.py runserver 
 
 
